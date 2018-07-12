@@ -1,0 +1,20 @@
+{
+  "name": "to-geojson-collection",
+  "version": "1.0.0",
+  "description": "merge gpx files into a single geojson feature collection",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node main.js"
+  },
+  "author": "Shan He",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "togeojson": "^0.16.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.53",
+    "@babel/node": "^7.0.0-beta.53"
+  }
+}
